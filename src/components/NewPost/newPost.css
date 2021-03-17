@@ -1,0 +1,11 @@
+.form-new-post {
+  grid-column: 1/4;
+  grid-row: 2/3;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.form-new-post div {
+  width: 100%;
+  margin: 20px 0;
+}

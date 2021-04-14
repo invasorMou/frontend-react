@@ -6,9 +6,7 @@ function MainPost() {
       <img className='main-post--image' src='./test.png' />
       <h2>POST TITLE</h2>
       <p>
-        falksdfjaklsdfjaksfjalskdfjalskdfjaslkdfjaslkdfjaslkdfjjfskdfja
-        falksdfjaklsdfjaksfjalskdfjalskdfjaslkdfjaslkdfjaslkdfjjfskdfja
-        falksdfjaklsdfjaksfjalskdfjalskdfjaslkdfjaslkdfjaslkdfjjfskdfja
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
       </p>
     </div>
   );

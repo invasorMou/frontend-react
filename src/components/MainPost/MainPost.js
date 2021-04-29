@@ -1,12 +1,12 @@
 import './mainPost.css'
 
-function MainPost() {
+function MainPost(props) {
   return (
     <div className='main-post'>
-      <img className='main-post--image' src='./test.png' />
-      <h2>POST TITLE</h2>
+      <img className='main-post--image' src='./test.png'/>
+      <h2>{ props.post.title }</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+        { props.post.content }
       </p>
     </div>
   );

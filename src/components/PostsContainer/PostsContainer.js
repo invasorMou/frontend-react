@@ -1,12 +1,12 @@
 import PostPreview from '../PostPreview/PostPreview.js'
 
-function PostsContainer() {
-  let postData = [1, 2, 3, 4, 5]
+function PostsContainer(props) {
   return (
       <div className='posts-container'>
+      
         { 
-          postData.map((data, idx) => {
-            return <PostPreview key={ idx } />
+          props.posts.map((post, idx) => {
+            return <PostPreview data={ post } key={ idx } />
           })
         }
       </div>
@@ -14,3 +14,4 @@ function PostsContainer() {
 }
 
 export default PostsContainer;
+
